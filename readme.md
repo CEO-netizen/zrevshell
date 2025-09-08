@@ -1,3 +1,17 @@
-# zrevshell
-I am not responsible for any illegal usage of this program.
-Any misusage is responsible to the sole user. I do not take responsibility for others actions with this software. I strongly recommend you do not use this software for illegal purposes. This software shall only be used on labs and/or test systems.
+# Zrevshell
+
+Zrevshell is a **PHP reverse shell** designed for **educational and lab testing purposes only**.  
+It demonstrates how reverse shells work and allows you to safely test shell execution and socket connections in controlled environments.
+
+## Features
+- Advanced reverse shell using `proc_open`.
+- Simple fallback method using `shell_exec`.
+- Browser-based testing interface for safe experimentation.
+
+## Installation
+1. Configure `$host`, `$port`, and `$shell` in `zrevshell.php`.
+2. Deploy on a lab server or local PHP environment.
+3. Run in CLI to initiate the shell or access via browser to use the test interface.
+
+## Disclaimer
+This tool is for **authorized testing only**. Misuse on production systems or unauthorized targets is illegal and entirely the responsibility of the user.
